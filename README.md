@@ -22,24 +22,32 @@ It's pretty simple:
 
 The keys work like this:
 
-\`\`\`
-1: &'(    2: ABC    3: DEF
-4: GHI    5: JKL    6: MNO
-7: PQRS   8: TUV    9: WXYZ
+1: &'(    
+2: ABC    
+3: DEF
+4: GHI    
+5: JKL    
+6: MNO
+7: PQRS   
+8: TUV    
+9: WXYZ
 0: space
-\`\`\`
 
 ### Examples
 
 #### Convert:
-\`33#\` gives you "E" (press 3 two times)
-\`227*#\` gives you "B" (press 2 two times, ignore 7 because of *)
-\`8 88777444666*664#\` gives you "TURING"
+33# gives you "E" (press 3 two times)
+
+227*# gives you "B" (press 2 two times, ignore 7 because of *)
+
+8 88777444666*664# gives you "TURING"
 
 #### Reverse:
-"TURING" gives you \`8 88777444664#\` (cool, right?)
-"HELLO" gives you \`4433555 555666#\`
-"CAB" gives you \`222 2 22#\`
+"TURING" gives you 8 88777444664# (cool, right?)
+
+"HELLO" gives you 4433555 555666#
+
+"CAB" gives you 222 2 22#
 
 ## Technical stuff (if you want to know more)
 I use C# (.NET 8.0) and JetBrains Rider (best IDE ever!) to make it:
