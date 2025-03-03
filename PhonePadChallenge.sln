@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhonePadChallenge", "PhonePadChallenge\PhonePadChallenge.csproj", "{3AB1924C-DD10-44C0-80BB-BC297BE30B17}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestPhonePadChallenge", "TestPhonePadChallenge\TestPhonePadChallenge.csproj", "{15B67A87-F87D-478C-B6CB-BFCAE4528C55}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{3AB1924C-DD10-44C0-80BB-BC297BE30B17}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3AB1924C-DD10-44C0-80BB-BC297BE30B17}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3AB1924C-DD10-44C0-80BB-BC297BE30B17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15B67A87-F87D-478C-B6CB-BFCAE4528C55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15B67A87-F87D-478C-B6CB-BFCAE4528C55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15B67A87-F87D-478C-B6CB-BFCAE4528C55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15B67A87-F87D-478C-B6CB-BFCAE4528C55}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
